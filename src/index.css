@@ -1,0 +1,81 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+
+
+
+html {
+  overflow-x: hidden;
+  font-family: "Cairo", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  font-family: "Cairo", sans-serif;
+  position: relative;
+  direction: rtl;
+  /* background-color: #E4E4E4; */
+}
+
+
+
+.dir-ltr {
+  direction: ltr;
+}
+
+.dir-rtl {
+  direction: rtl;
+}
+
+
+.wp-1 {
+  width: 16%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-2 {
+  width: 33%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-3 {
+  width: 49%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-4 {
+  width: 65%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-5 {
+  width: 82%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-6 {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-7 {
+  width: 70%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-8 {
+  width: 80%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-9 {
+  width: 90%;
+  transition: all 0.3s ease-in-out;
+}
+
+.wp-10 {
+  width: 100%;
+  transition: all 0.3s ease-in-out;
+}
